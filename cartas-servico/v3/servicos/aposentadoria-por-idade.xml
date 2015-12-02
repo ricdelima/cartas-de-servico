@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
-    <nome>Aposentadoria por Idade</nome>
+    <nome><![CDATA[Aposentadoria por Idade]]></nome>
     <sigla/>
     <nomes-populares/>
-    <descricao>Benefício devido aos trabalhadores urbanos do sexo masculino a partir dos 65 anos e do sexo feminino a partir dos 60 anos de idade. Os trabalhadores rurais podem pedir aposentadoria por idade com cinco anos a menos: a partir dos 60 anos, homens, e a partir dos 55 anos, mulheres.</descricao>
+    <descricao><![CDATA[Benefício devido aos trabalhadores urbanos do sexo masculino a partir dos 65 anos e do sexo feminino a partir dos 60 anos de idade. Os trabalhadores rurais podem pedir aposentadoria por idade com cinco anos a menos: a partir dos 60 anos, homens, e a partir dos 55 anos, mulheres.]]></descricao>
+    <contato/>
     <gratuito/>
     <solicitantes/>
     <tempo-total-estimado>
@@ -22,10 +23,10 @@
             <canais-de-prestacao>
                 <default>
                     <canal-de-prestacao tipo="web-agendar">
-                        <descricao>http://www2.dataprev.gov.br/prevagenda/OpcaoInicialTela.view</descricao>
+                        <descricao><![CDATA[http://www2.dataprev.gov.br/prevagenda/OpcaoInicialTela.view]]></descricao>
                     </canal-de-prestacao>
                     <canal-de-prestacao tipo="presencial">
-                        <descricao>Serviço prestado nas Agências da Previdência Social.</descricao>
+                        <descricao><![CDATA[Serviço prestado nas Agências da Previdência Social.]]></descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
