@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
-    <nome>Acesso aos documentos do Acervo do Arquivo Legal</nome>
+    <nome><![CDATA[Acesso aos documentos do Acervo do Arquivo Legal]]></nome>
     <sigla/>
     <nomes-populares/>
     <descricao><![CDATA[Atendimento, a distância, das demandas de acesso aos documentos do acervo do Arquivo Nacional, como por exemplo a reprodução de documentos, transcrições e/ou certidões probatórias e informações sobre o acervo, por meio do sítio do órgão ou e-mail.
@@ -24,7 +24,7 @@ Atendimento presencial na Sala de Consultas do Arquivo Nacional. O usuário requ
     </tempo-total-estimado>
     <etapas>
         <etapa>
-            <titulo/>
+            <titulo>teste</titulo>
             <descricao/>
             <documentos>
                 <default/>
@@ -33,20 +33,7 @@ Atendimento presencial na Sala de Consultas do Arquivo Nacional. O usuário requ
                 <default/>
             </custos>
             <canais-de-prestacao>
-                <default>
-                    <canal-de-prestacao tipo="web">
-                        <descricao><![CDATA[http://www.arquivonacional.gov.br/cgi/cgilua.exe/sys/start.htm?infoid=519&sid=8]]></descricao>
-                    </canal-de-prestacao>
-                    <canal-de-prestacao tipo="e-mail">
-                        <descricao><![CDATA[Para atendimento a distância - consultas@arquivonacional.gov.br]]></descricao>
-                    </canal-de-prestacao>
-                    <canal-de-prestacao tipo="telefone">
-                        <descricao><![CDATA[Para atendimento a distância: (21) 2179-1257]]></descricao>
-                    </canal-de-prestacao>
-                    <canal-de-prestacao tipo="presencial">
-                        <descricao><![CDATA[Para atendimento presencial: - Arquivo Nacional/Sede: Praça da República, 173, Centro, Rio de Janeiro – RJ - Arquivo Nacional/Coordenação Regional no DF: Setor de Indústrias Gráficas, quadra 6, lote 800, Prédio da Imprensa Nacional, Brasília – DF]]></descricao>
-                    </canal-de-prestacao>
-                </default>
+                <default/>
             </canais-de-prestacao>
         </etapa>
     </etapas>
