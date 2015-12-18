@@ -19,11 +19,11 @@ Atendimento presencial na Sala de Consultas do Arquivo Nacional. O usuário requ
 
 * [Outros](undefined): Informações/dúvidas sobre atendimento presencial: saladeconsultas@arquivonacional.gov.br]]></descricao>
     <contato/>
-    <gratuito/>
+    <gratuito>false</gratuito>
     <solicitantes/>
     <tempo-total-estimado>
-        <entre max="-8" min="1" unidade="minutos"/>
-        <descricao/>
+        <entre max="-10" min="2" unidade="horas"/>
+        <descricao><![CDATA[teste teste teste teste teste]]></descricao>
     </tempo-total-estimado>
     <etapas>
         <etapa>
