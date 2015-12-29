@@ -22,7 +22,7 @@ Atendimento presencial na Sala de Consultas do Arquivo Nacional. O usuário requ
     <gratuito>false</gratuito>
     <solicitantes/>
     <tempo-total-estimado>
-        <entre max="-10" min="2" unidade="horas"/>
+        <entre max="10" min="2" unidade="horas"/>
         <descricao><![CDATA[teste teste teste teste teste]]></descricao>
     </tempo-total-estimado>
     <etapas>
