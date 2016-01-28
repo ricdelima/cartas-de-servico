@@ -23,21 +23,7 @@ Atendimento presencial na Sala de Consultas do Arquivo Nacional. O usuário requ
         <entre max="10" min="2" unidade="horas"/>
         <descricao><![CDATA[teste teste teste teste teste]]></descricao>
     </tempo-total-estimado>
-    <etapas>
-        <etapa>
-            <titulo>teste</titulo>
-            <descricao/>
-            <documentos>
-                <default/>
-            </documentos>
-            <custos>
-                <default/>
-            </custos>
-            <canais-de-prestacao>
-                <default/>
-            </canais-de-prestacao>
-        </etapa>
-    </etapas>
+    <etapas/>
     <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/316"/>
     <segmentos-da-sociedade>
         <item>Cidadãos</item>
