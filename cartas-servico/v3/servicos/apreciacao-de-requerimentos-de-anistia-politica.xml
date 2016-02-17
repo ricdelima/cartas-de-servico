@@ -9,22 +9,7 @@
     <solicitantes>
         <solicitante>
             <tipo>O(A) perseguido(a) político(a) ou, em caso de falecimento, a(o) viúva(o), o sucessor ou dependente econômico</tipo>
-            <requisitos><![CDATA[É necessário que o requerente faça uma petição inicial narrando os fatos detalhadamente e apresente os seguintes documentos:
-
-a) Carteira de Identidade (RG);
-b) C.P.F;
-c) Certidão de Casamento, caso seja casado(a);
-d) Certidão de Nascimento do(s) filhos(as);
-e) Comprovante de Residência;
-f) Certificado de Reservista, caso seja ou tenha sido militar;
-g) Comprovante de Conta Bancária;
-h) Procuração, caso o requerimento seja apresentado por Procurador;
-mbfj) Em caso de falecimento do Anistiando, apresentar a Certidão de Óbito;
-k) Laudo Médico, se for portador(a) de alguma doença crônica;
-l) Carteira de Trabalho e/ou Comprovação de Vínculo Laboral, se for o caso;
-m) Histórico Escolar, se for o caso;
-n) Comprovante de Exílio, se for o caso; e
-o) Outro(s) documento(s) caso julgue necessário(s). Ex.: Certidão do Arquivo Nacional, Certidão do Arquivo Público Estadual, Certidão de Empresa(s) Empregadora(s), Declaração de Testemunhas, Reportagens de Jornais e Revistas.]]></requisitos>
+            <requisitos/>
         </solicitante>
     </solicitantes>
     <tempo-total-estimado>
@@ -33,7 +18,7 @@ o) Outro(s) documento(s) caso julgue necessário(s). Ex.: Certidão do Arquivo N
     </tempo-total-estimado>
     <etapas>
         <etapa>
-            <titulo/>
+            <titulo>É necessário que o requerente faça uma petição inicial narrando os fatos detalhadamente, dando ênfase às situações de perseguição política.</titulo>
             <descricao/>
             <documentos>
                 <default/>
