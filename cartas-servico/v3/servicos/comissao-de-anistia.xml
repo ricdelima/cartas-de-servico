@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
-    <nome>Comissão de Anistia </nome>
+    <nome><![CDATA[Comissão de Anistia]]></nome>
     <sigla/>
     <nomes-populares/>
-    <descricao>Análise, julgamento e decisão final nos requerimentos de Anistia Política, com a consequente emissão de Portaria Ministerial.
+    <descricao><![CDATA[Análise, julgamento e decisão final nos requerimentos de Anistia Política, com a consequente emissão de Portaria Ministerial.
 
 Os processos de anistia são recepcionados pela Comissão de Anistia, do Ministério da Justiça - MJ, para que sejam adotados os procedimentos estabelecidos na Portaria nº 2.523/2008/MJ.
 
@@ -21,11 +21,33 @@ A anistia está prevista no art. 8º do Ato das Disposições Transitórias da C
 
 * [Formulários](http://portal.mj.gov.br/data/Pages/MJABFF735EITEMIDF6425A864D1448ACB9FC7B3A1CDC1022PTBRNN.htm): Normas procedimentais da Comissão para a formulação do requerimento de anistia
 
-* [Mais informações](http://portal.mj.gov.br/data/Pages/MJ20BF8FDBITEMIDDB66A11972EE4432A7654440E32B2B6CPTBRNN.htm): Mais informações - Anistia Política</descricao>
-    <gratuito/>
-    <solicitantes/>
+* [Mais informações](http://portal.mj.gov.br/data/Pages/MJ20BF8FDBITEMIDDB66A11972EE4432A7654440E32B2B6CPTBRNN.htm): Mais informações - Anistia Política]]></descricao>
+    <contato/>
+    <gratuito>true</gratuito>
+    <solicitantes>
+        <solicitante>
+            <tipo>O(A) perseguido(a) político(a) ou, em caso de falecimento, a(o) viúva(o), o sucessor ou dependente econômico</tipo>
+            <requisitos><![CDATA[É necessário que o requerente faça uma petição inicial narrando os fatos detalhadamente e apresente os seguintes documentos:
+
+a) Carteira de Identidade (RG);
+b) C.P.F;
+c) Certidão de Casamento, caso seja casado(a);
+d) Certidão de Nascimento do(s) filhos(as);
+e) Comprovante de Residência;
+f) Certificado de Reservista, caso seja ou tenha sido militar;
+g) Comprovante de Conta Bancária;
+h) Procuração, caso o requerimento seja apresentado por Procurador;
+mbfj) Em caso de falecimento do Anistiando, apresentar a Certidão de Óbito;
+k) Laudo Médico, se for portador(a) de alguma doença crônica;
+l) Carteira de Trabalho e/ou Comprovação de Vínculo Laboral, se for o caso;
+m) Histórico Escolar, se for o caso;
+n) Comprovante de Exílio, se for o caso; e
+o) Outro(s) documento(s) caso julgue necessário(s). Ex.: Certidão do Arquivo Nacional, Certidão do Arquivo Público Estadual, Certidão de Empresa(s) Empregadora(s), Declaração de Testemunhas, Reportagens de Jornais e Revistas.]]></requisitos>
+        </solicitante>
+    </solicitantes>
     <tempo-total-estimado>
-        <descricao/>
+        <ate max="30" unidade="dias-corridos"/>
+        <descricao><![CDATA[A partir do momento em que o processo encontra-se instruído, o que envolve o cumprimento integral das etapas prévias de autuação, triagem, envio de diligências e análise, a decisão do Conselho dar-se-á no prazo de 30 (trinta) dias, prorrogável por igual período.]]></descricao>
     </tempo-total-estimado>
     <etapas>
         <etapa>
@@ -40,10 +62,10 @@ A anistia está prevista no art. 8º do Ato das Disposições Transitórias da C
             <canais-de-prestacao>
                 <default>
                     <canal-de-prestacao tipo="presencial">
-                        <descricao>Ministério da Justiça. Esplanada dos Ministérios, Bloco T, anexo II, térreo T3, Brasília, DF. CEP: 70064-900.</descricao>
+                        <descricao><![CDATA[Ministério da Justiça. Esplanada dos Ministérios, Bloco T, anexo II, térreo T3, Brasília, DF. CEP: 70064-900.]]></descricao>
                     </canal-de-prestacao>
                     <canal-de-prestacao tipo="postal">
-                        <descricao>O requerimento de Anistia Política também pode ser enviado pelos Correios ao endereço: Ministério da Justiça. Esplanada dos Ministérios, Bloco T, anexo II, térreo T3, Brasília, DF. CEP: 70064-900.</descricao>
+                        <descricao><![CDATA[O requerimento de Anistia Política também pode ser enviado pelos Correios ao endereço: Ministério da Justiça. Esplanada dos Ministérios, Bloco T, anexo II, térreo T3, Brasília, DF. CEP: 70064-900.]]></descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
