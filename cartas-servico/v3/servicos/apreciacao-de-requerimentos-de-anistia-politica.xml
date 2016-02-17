@@ -19,7 +19,7 @@
     <etapas>
         <etapa>
             <titulo>Requerimento</titulo>
-            <descricao><![CDATA[É necessário que o requerente faça uma petição inicial ou preencha um formulário para apresentar junto ao pedido.]]></descricao>
+            <descricao><![CDATA[Para entrar com requerimento de Anistia, não é necessária a contratação de um advogado. Basta que o requerente faça uma petição inicial narrando os fatos detalhadamente, dando ênfase às situações de perseguição política e os prejuízos causados por essa situação. Se desejar, pode utilizar um formulário para apresentar seu pedido, que é disponibilizado pela Comissão de Anistia, e juntamente com a petição, é necessário encaminhar as cópias de documentos que comprovem a perseguição política.]]></descricao>
             <documentos>
                 <default/>
             </documentos>
